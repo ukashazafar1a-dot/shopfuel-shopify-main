@@ -1,0 +1,5 @@
+Also Define Flickity.css and Flickity.js  theme.liquid 
+<head>
+ {{ 'flickity.css' | asset_url | stylesheet_tag }}
+  {{ 'flickity.js' | asset_url | script_tag }}
+</head>
